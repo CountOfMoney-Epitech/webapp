@@ -7,6 +7,9 @@ export default defineConfig({
   build: {
     outDir: 'build',
     assetsDir: 'assets',
-    emptyOutDir: true,
+    emptyOutDir: true
+  },
+  server: {
+    host: true
   },
 })

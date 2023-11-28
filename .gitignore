@@ -25,5 +25,7 @@ dist-ssr
 
 # Docker
 .dockerignore
-Webapp.Dockerfile
-nginx/nginx.conf
+Dockerfile
+nginx.conf
+entrypoint.sh
+.env
